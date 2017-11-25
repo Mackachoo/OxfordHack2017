@@ -1,0 +1,49 @@
+Content and Context
+===================
+This dataset is a collection of biomedicine and life science bibliometric data obtained from MEDLINE.
+
+The data covers 26,759,425 papers available thought MEDLINE from 1946 through 2016.
+
+This dataset has been created by processing the publicly available data dump at nih.gov. The data dump consists of ca 23 Million xml articles. From these xml files I have extracted some meta data into more accessible csv files. The processed csvs contain both very basic metadata (i.e. creation date, number of authors, and ids) and the "Medical Subject Headings" MeSH classification.
+
+The dataset is divided in two files,
+- paper_details.csv
+- mesh.csv
+
+The paper_details.csv file contains the following columns:
+- pmid: this is the unique article identified within the dataset, it is also the official identifier used on PubMed
+- doi: digital object identifier, this id allows to uniquely identify a paper through the widely used DOI scheme
+- num_authors: number of authors on the paper
+- year: year the document has been created
+- month: month the document has been created
+- day: day the document has been created
+- title: title of the document
+- issn: the ISSN number of the journal the document has been published in
+- issn_type: printed or electronic
+- volume: volume of the journal the document has been published in
+- issue: issue of the journal the document has been published in
+- journal_title: Name of Journal the document has been published in
+- journal_title_iso: ISO abbreviation of the journal title.
+5 GB, and 26,759,425 rows
+
+In the mesh.csv file the following fields are available:
+- pmid: this is the unique article identified within the dataset, it is also the official identifier used on PubMed
+- descriptor_id: the id of the MeSH descriptor for the given document
+- descriptor_name: name of the MeSH descriptor
+- descriptor_major_topic: Y/N, indicate if the descriptor is a major topic in MeSH
+- qualifiers: a list of MeSH qualifiers (aka subheadings). Subheadings are attached to MeSH headings to describe a specific aspect of a concept.
+NB: a document can and has more often then not more then one MeSH descriptor associated to it.
+
+11 GB, and 247,415,857 rows
+
+Other Resources
+===============
+An introduction to MeSH can be found at https://www.nlm.nih.gov/mesh/ and short tutorials from the U.S. National Library of Medicine on how to use MeSH can be found at https://www.nlm.nih.gov/bsd/disted/mesh.html.
+
+Factsheets describing MeSH and MEDLINE:
+
+https://www.nlm.nih.gov/pubs/factsheets/mesh.html
+https://www.nlm.nih.gov/pubs/factsheets/medline.html
+Further datasets, which might be useful to work with MeSH data:
+
+https://mbr.nlm.nih.gov/Downloads.shtml
