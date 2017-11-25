@@ -1,0 +1,32 @@
+{ 
+    {
+    "Location" : "98689",
+    "Race"     : "White",
+    "Diseases" : {
+        "Cystic Fibrosis" : {
+            "Date"     : "",
+            "Medicine" : "..."
+        }
+    }, 
+    "Dead?" : "True"
+
+    },
+
+    {
+        "Location" : "9864",
+        "Race"     : "White",
+        "Diseases" : {
+            "Cancer" : {
+                "date"     : "...",
+                "medicine" : "..."
+            },
+            "Brachiosaur" : {
+                "date"     : "20150301",
+                "medicine" : "list..."
+            }
+        },
+        "Dead?" : "False"
+    
+        }
+
+}
