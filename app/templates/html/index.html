@@ -25,24 +25,34 @@
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
+  <style>
+  body{
+    background-image: url("images/corgi.gif");
+    background-size: cover;
+  }
+  </style>
+}
 
 </head>
 
 <body>
     <div class="container">
-      <div class="row" style = "margin-top:5%;";>
-       <h1 style = "position:center;">Title</h1>
+      <div class="row">
+       <h1 style = "text-align:center;">Title</h1>
       </div>  
     <form>
-        <div class="row" style="margin-top: 8%;">
-          <div class="two columns">
+        <div class="row" 
+        >
+          <div class="four columns">
               <label for="alivestatus">r u ded?:</label>
               <select class="u-full-width" id="alivestatus">
+                <option value="">Select...</option>
                 <option value="Option 1">Yes</option>
                 <option value="Option 2">No</option>
               </select>
           </div>
-          <div class="three columns">
+
+          <div class="four columns">
             <label for="disease">Disease:</label>
             <input class="u-full-width" type="search" placeholder="search..." list="dieseses" id="disease">
             
@@ -56,7 +66,7 @@
                 
           </div>
          
-          <div class="three columns">
+          <div class="four columns">
               <label for="racesearch">Race:</label>
               <input class="u-full-width" type="search" placeholder="search..." list="race" id="racesearch">
               
@@ -68,23 +78,31 @@
                 <option value="Rick and Morty">
               </datalist>
           </div>
-          <div class="two columns">
-              <label for="from">From:</label>
-              <input class="u-fill-width" type="date" id="from">
-          </div>
-          <div class="two columns">
-              <label for="to">To:</label>
-              <input class="u-fill-width" type="date" id="to">
-          </div>
         </div>
-        <label for="exampleMessage">Message</label>
-        <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
-        <label class="example-send-yourself-copy">
-          <input type="checkbox">
-          <span class="label-body">Send a copy to yourself</span>
-        </label>
-        <input class="button-primary" type="submit" value="Submit">
+        <div class="row">
+
+          <div class="four columns">
+              <label for="from">From:</label>
+              <input class="u-fill-width" type="date" id="from" style="width:100%">
+          </div>
+
+          <div class="four columns">
+              <label for="to">To:</label>
+              <input class="u-fill-width" type="date" id="to" style="width:100%">
+          </div>
+          <div class ="four columns">
+            <input class="button-primary" type="submit" value="Find Invalids" style="width:100%;margin-top:9.5%">
+          </div>
+        </div>      
       </form>
+      <div class = "row">
+        <div class = "two columns"></div>
+        <div class = "eight columns">
+          <img class="u-max-full-width"src="images/USmap.svg" alt="Fat people"> 
+        </div>
+        <div class = "two columns"></div>
+      </div>
+      
     </div>
 </body>
 </html>
