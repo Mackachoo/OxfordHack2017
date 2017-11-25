@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Memes</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="../static/normalize.css">
+  <link rel="stylesheet" href="../static/skeleton.css">
+  <style>
+  body{
+    background-image: url("images/corgi.gif");
+    background-size: cover;
+  }
+  </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+      <div class="row">
+       <h1 style = "text-align:center;">Title</h1>
+      </div>  
+    <form method = 'post' action = '/'> 
+        <div class="row" >
+          <div class="four columns">
+              <label for="alivestatus">r u ded?:</label>
+              <select class="u-full-width" id="alivestatus" name = "alive">
+                <option value="">Select...</option>
+                <option value="True">Yes</option>
+                <option value="False">No</option>
+              </select>
+          </div>
+
+          <div class="four columns">
+            <label for="disease">Disease:</label>
+            <input class="u-full-width" type="search" placeholder="search..." list="dieseses" id="disease" name = "disease">
+            <datalist id="dieseses" name = "disease">
+              {% for elem in elements.0 %}
+                <option value = "{{elem.Disease}}">
+              {% endfor %}
+            </datalist>
+                
+          </div>
+         
+          <div class="four columns">
+              <label for="racesearch">Race:</label>
+              <input class="u-full-width" type="search" placeholder="search..." list="race" id="racesearch" name = "race">
+              
+              <datalist id="race">
+                {% for elem in elements.0 %}
+                <option value="{{elements[0].Race}}">
+                {%endfor%}
+              </datalist>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="four columns">
+              <label for="from">From:</label>
+              <input class="u-fill-width" type="date" id="from" style="width:100%" name = "from">
+          </div>
+
+          <div class="four columns">
+              <label for="to">To:</label>
+              <input class="u-fill-width" type="date" id="to" style="width:100%" name = "to">
+          </div>
+          <div class ="four columns">
+            <input class="button-primary" type="submit" value="Find Invalids" style="width:100%;margin-top:9.5%">
+          </div>
+        </div>      
+      </form>
+      {% if randcode%}
+      <img class="eleven columns offset-by-half" src= "../gay.svg" style = "margin-bottom:50px;">
+      {% else %}
+      <img class="eleven columns offset-by-half"src="../static/USmap.svg" alt="Fat people" style = "margin-bottom:50px;">
+      {% endif %}
+    </div>
+</body>
+</html>

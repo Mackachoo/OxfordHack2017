@@ -1,0 +1,21 @@
+{ 
+	"Diseases" : [
+	
+	{
+	"Disease"	: "Cystic Fibrosis",
+	"Location"	: "098766",
+	"Race"		: "White",
+	"Date"		: "20150321",
+	"Medication": [ "Zeus", "Findlay", "Penicilin" ]
+	},
+	
+	{
+	"Disease"	: "Gary Syndrome",
+	"Location"	: "123456",
+	"Race"		: "If you read this you're gay",
+	"Date"		: "20250411",
+	"Medication": [ "Antimatter", "StillFindlay", "-1/12" ]	
+	}
+	
+	]
+}
