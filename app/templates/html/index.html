@@ -25,34 +25,43 @@
   <link rel="icon" type="image/png" href="">
   <style>
   body{
-    background-image: url("images/corgi.gif");
+    background-image: url("");
     background-size: cover;
   }
   </style>
-}
-
 </head>
 
 <body>
+   
+<div id="area">  </div>
     <div class="container">
       <div class="row">
-       <h1 style = "text-align:center;">Title</h1>
-      </div>  
+       <h1 style = "text-align:center;">The Big Investors</h1>
+      </div>
+
     <form>
-        <div class="row" 
-        >
+
+        <div class="row">
+          <div class="two columns">
+              <label>r u ded:</label>
+          </div>
           <div class="four columns">
-              <label for="alivestatus">r u ded?:</label>
               <select class="u-full-width" id="alivestatus">
                 <option value="">Select...</option>
                 <option value="Option 1">Yes</option>
                 <option value="Option 2">No</option>
               </select>
           </div>
-
-          <div class="four columns">
-            <label for="disease">Disease:</label>
-            <input class="u-full-width" type="search" placeholder="search..." list="dieseses" id="disease">
+          <div class ="two columns">
+              <input class="button-primary" type="submit" value="Add Invalids" style="width:100%">
+            </div>
+          </div>
+          <div class="row">
+          <div class="two columns">
+            <label>Disease:</label>
+          </div>
+          <div class ="four columns">
+            <input class="u-full-width" type="search" placeholder="search..." list="dieseses">
             
             <datalist id="dieseses">
               <option value="Internet Explorer">
@@ -61,11 +70,37 @@
               <option value="Memes">
               <option value="Rick and Morty">
             </datalist>
-                
+          </div>  
+          <div class ="two columns">
+              <input class="button-primary" type="submit" value="Add Invalids" style="width:100%">
+            </div>
           </div>
-         
+
+          <div class ="row">
+          <div class="two columns">
+              <label>Medication:</label>
+          </div>
           <div class="four columns">
-              <label for="racesearch">Race:</label>
+              <input class="u-full-width" type="search" placeholder="search..." list="medication">
+              
+              <datalist id="medication">
+                <option value="Internet Explorer">
+                <option value="Cancer">
+                <option value="Bananas">
+                <option value="Memes">
+                <option value="Rick and Morty">
+              </datalist>
+                  
+            </div>
+            <div class ="two columns">
+                <input class="button-primary" type="submit" value="Add Invalids" style="width:100%">
+              </div>
+          </div>
+          <div class = "row">
+          <div class="two columns">
+              <label>Race:</label>
+          </div>
+          <div class = "four columns">
               <input class="u-full-width" type="search" placeholder="search..." list="race" id="racesearch">
               
               <datalist id="race">
@@ -76,22 +111,37 @@
                 <option value="Rick and Morty">
               </datalist>
           </div>
+          <div class ="two columns">
+              <input class="button-primary" type="submit" value="Add Invalids" style="width:100%">
+            </div>
         </div>
+
         <div class="row">
 
-          <div class="four columns">
-              <label for="from">From:</label>
-              <input class="u-fill-width" type="date" id="from" style="width:100%">
-          </div>
-
-          <div class="four columns">
-              <label for="to">To:</label>
-              <input class="u-fill-width" type="date" id="to" style="width:100%">
+          <div class="two columns">
+              <label>From:</label>
           </div>
           <div class ="four columns">
-            <input class="button-primary" type="submit" value="Find Invalids" style="width:100%;margin-top:9.5%">
+              <input class="u-fill-width" type="date" id="from" style="width:100%">
           </div>
-        </div>      
+          <div class ="two columns">
+              <input class="button-primary" type="submit" value="Add Invalids" style="width:100%">
+            </div>
+        </div>
+
+        <div class="row">
+            
+                      <div class="two columns">
+                          <label>To:</label>
+                      </div>
+                      <div class ="four columns">
+                          <input class="u-fill-width" type="date" id="to" style="width:100%">
+                      </div>
+                      <div class ="two columns">
+                          <input class="button-primary" type="submit" value="Add Invalids" style="width:100%">
+                        </div>
+                    </div>
+</div>      
       </form>
       <div class = "row">
           <img class="u-full-width" src="images/USmap.svg" alt="Fat people"> 
