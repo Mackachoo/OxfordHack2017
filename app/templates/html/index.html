@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Memes</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+    <div class="container">
+      <div class="row" style = "margin-top:5%;";>
+       <h1 style = "position:center;">Title</h1>
+      </div>  
+    <form>
+        <div class="row" style="margin-top: 8%;">
+          <div class="two columns">
+              <label for="alivestatus">r u ded?:</label>
+              <select class="u-full-width" id="alivestatus">
+                <option value="Option 1">Yes</option>
+                <option value="Option 2">No</option>
+              </select>
+          </div>
+          <div class="three columns">
+            <label for="disease">Disease:</label>
+            <input class="u-full-width" type="search" placeholder="search..." list="dieseses" id="disease">
+            
+            <datalist id="dieseses">
+              <option value="Internet Explorer">
+              <option value="Cancer">
+              <option value="Bananas">
+              <option value="Memes">
+              <option value="Rick and Morty">
+            </datalist>
+                
+          </div>
+         
+          <div class="three columns">
+              <label for="racesearch">Race:</label>
+              <input class="u-full-width" type="search" placeholder="search..." list="race" id="racesearch">
+              
+              <datalist id="race">
+                <option value="Islam">
+                <option value="Bananas">
+                <option value="Black">
+                <option value="Asian">
+                <option value="Rick and Morty">
+              </datalist>
+          </div>
+          <div class="two columns">
+              <label for="from">From:</label>
+              <input class="u-fill-width" type="date" id="from">
+          </div>
+          <div class="two columns">
+              <label for="to">To:</label>
+              <input class="u-fill-width" type="date" id="to">
+          </div>
+        </div>
+        <label for="exampleMessage">Message</label>
+        <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+        <label class="example-send-yourself-copy">
+          <input type="checkbox">
+          <span class="label-body">Send a copy to yourself</span>
+        </label>
+        <input class="button-primary" type="submit" value="Submit">
+      </form>
+    </div>
+</body>
+</html>
