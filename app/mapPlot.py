@@ -21,20 +21,19 @@ def MapPlot(code):
     count = 0
     num = 0
 
-    for elem in queryResponse:
-        totalnum = totalnum + elem[1]
+    for entry in queryResponse:
+        totalnum = totalnum + entry[1]
 
 
     for p in paths:
         num = 0
-        p['style'] = pathStyle + ('#D3D3D3;')
         if p['id'] not in ['State_Lines', 'separator']:
             try:
                 for entry in queryResponse:
                     if p['inkscape:label'].decode("utf-8") == entry[0]:
-                        print "gay"
+                        print ("success")
                         num = entry[1]
-                        x =  (hex(255 - int(round((255*num/totalnum))))[2:])
+                        x =  (hex(int(round((255*num/totalnum))))[2:])
                         p['style'] = pathStyle + ('#' + x + x + x + ';')
                         break
             except:

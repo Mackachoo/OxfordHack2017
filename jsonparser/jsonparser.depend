@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1511657286 source:c:\users\rokas\desktop\jsonparser\jsonparser\main.cpp
+	<iostream>
+	<fstream>
+	<dirent.h>
+	<algorithm>
+	<stdio.h>
+	<string>
+	"json.hpp"
+
+1511625591 c:\users\rokas\desktop\jsonparser\jsonparser\json.hpp
+	<algorithm>
+	<array>
+	<cassert>
+	<cctype>
+	<ciso646>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdlib>
+	<cstring>
+	<forward_list>
+	<functional>
+	<initializer_list>
+	<iomanip>
+	<iostream>
+	<iterator>
+	<limits>
+	<locale>
+	<map>
+	<memory>
+	<numeric>
+	<sstream>
+	<stdexcept>
+	<string>
+	<type_traits>
+	<utility>
+	<vector>
+
