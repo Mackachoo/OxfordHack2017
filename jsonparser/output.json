@@ -1,0 +1,407 @@
+{
+    "0": {
+        "Date": "19980702",
+        "Dead": true,
+        "Disease": "Overlapping malignant neoplasm of colon",
+        "DiseaseList": [
+            "Overlapping malignant neoplasm of colon"
+        ],
+        "Location": "Dover, MA",
+        "Medication": [
+            "Penicillin V Potassium 500 MG",
+            "Nitroglycerin 0.4 MG/ACTUAT [Nitrolingual]",
+            "Simvastatin 20 MG Oral Tablet",
+            "Amlodipine 5 MG Oral Tablet",
+            "Clopidogrel 75 MG Oral Tablet"
+        ],
+        "Race": "White"
+    },
+    "1": {
+        "Date": "20170604",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Chicopee, MA",
+        "Medication": [
+            "Penicillin V Potassium 250 MG",
+            "Acetaminophen 160 MG Oral Tablet",
+            "Acetaminophen 160 MG Oral Tablet",
+            " Amoxicillin 250 MG / Clavulanate 125 MG [Augmentin]",
+            "Natazia 28 Day Pack",
+            "Acetaminophen 160 MG",
+            "1 ML Depo-Provera 150 MG/ML Injection",
+            "Naproxen sodium 220 MG Oral Tablet"
+        ],
+        "Race": "Other"
+    },
+    "10": {
+        "Date": "20150617",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Braintree Town, MA",
+        "Medication": [
+            "Penicillin V Potassium 250 MG",
+            "Penicillin V Potassium 250 MG",
+            "Jolivette 28 Day Pack",
+            "1 ML Depo-Provera 150 MG/ML Injection",
+            "Xulane 150/35 MCG/Day Weekly Transdermal System",
+            "Jolivette 28 Day Pack",
+            "1 ML Depo-Provera 150 MG/ML Injection",
+            "Mirena 52 MG Intrauterine System",
+            "Natazia 28 Day Pack"
+        ],
+        "Race": "White"
+    },
+    "11": {
+        "Date": "20090720",
+        "Dead": true,
+        "Disease": "Bullet wound",
+        "DiseaseList": [
+            "Bullet wound"
+        ],
+        "Location": "Millbury, MA",
+        "Medication": [
+            "Penicillin V Potassium 500 MG"
+        ],
+        "Race": "White"
+    },
+    "12": {
+        "Date": "20071002",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Leicester, MA",
+        "Medication": [],
+        "Race": "Black"
+    },
+    "13": {
+        "Date": "20140611",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Marblehead, MA",
+        "Medication": [
+            "Penicillin V Potassium 250 MG",
+            "Acetaminophen 325 MG Oral Tablet"
+        ],
+        "Race": "White"
+    },
+    "14": {
+        "Date": "19941005",
+        "Dead": true,
+        "Disease": "Natural death with unknown cause",
+        "DiseaseList": [
+            "Natural death with unknown cause"
+        ],
+        "Location": "Brockton, MA",
+        "Medication": [
+            "Simvastatin 20 MG Oral Tablet",
+            "Amlodipine 5 MG Oral Tablet",
+            "Nitroglycerin 0.4 MG/ACTUAT [Nitrolingual]",
+            "Clopidogrel 75 MG Oral Tablet"
+        ],
+        "Race": "White"
+    },
+    "15": {
+        "Date": "20150718",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Tyngsborough, MA",
+        "Medication": [
+            "Penicillin V Potassium 500 MG",
+            "Penicillin V Potassium 500 MG",
+            "Alendronic acid 10 MG [Fosamax]"
+        ],
+        "Race": "White"
+    },
+    "16": {
+        "Date": "20151224",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Northbridge, MA",
+        "Medication": [
+            "Acetaminophen 160 MG Oral Tablet",
+            "1 ML Depo-Provera 150 MG/ML Injection",
+            "Camila 28 Day Pack",
+            "Acetaminophen 160 MG",
+            "Errin 28 Day Pack",
+            "Errin 28 Day Pack"
+        ],
+        "Race": "White"
+    },
+    "17": {
+        "Date": "20130416",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Leominster, MA",
+        "Medication": [
+            "Penicillin V Potassium 500 MG",
+            "Clopidogrel 75 MG Oral Tablet",
+            "Alteplase 1 MG/ML Injectable Solution"
+        ],
+        "Race": "White"
+    },
+    "18": {
+        "Date": "19640710",
+        "Dead": true,
+        "Disease": "Natural death with unknown cause",
+        "DiseaseList": [
+            "Natural death with unknown cause"
+        ],
+        "Location": "Lenox, MA",
+        "Medication": [],
+        "Race": "White"
+    },
+    "19": {
+        "Date": "20160411",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Boston, MA",
+        "Medication": [
+            "Penicillin V Potassium 250 MG",
+            "Acetaminophen 160 MG",
+            "Alendronic acid 10 MG [Fosamax]",
+            "Acetaminophen 160 MG"
+        ],
+        "Race": "White"
+    },
+    "2": {
+        "Date": "20131001",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Taunton, MA",
+        "Medication": [
+            "Penicillin V Potassium 250 MG",
+            "Mirena 52 MG Intrauterine System",
+            "Mirena 52 MG Intrauterine System",
+            "Jolivette 28 Day Pack",
+            "Nexplanon 68 MG Drug Implant",
+            "Nitrofurantoin 5 MG/ML [Furadantin]",
+            "Phenazopyridine hydrochloride 100 MG [Pyridium]",
+            "Jolivette 28 Day Pack"
+        ],
+        "Race": "Asian"
+    },
+    "20": {
+        "Date": "20161007",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Worcester, MA",
+        "Medication": [],
+        "Race": "White"
+    },
+    "21": {
+        "Date": "20150306",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Worcester, MA",
+        "Medication": [
+            "Penicillin V Potassium 250 MG",
+            "Penicillin V Potassium 500 MG",
+            " Amoxicillin 250 MG / Clavulanate 125 MG [Augmentin]",
+            "Camila 28 Day Pack",
+            "Jolivette 28 Day Pack",
+            "1 ML Depo-Provera 150 MG/ML Injection",
+            "Naproxen sodium 220 MG Oral Tablet",
+            "Errin 28 Day Pack",
+            "NuvaRing 0.12/0.015 MG per 24HR 21 Day Vaginal Ring"
+        ],
+        "Race": "White"
+    },
+    "22": {
+        "Date": "20160102",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Rockland, MA",
+        "Medication": [
+            "Penicillin V Potassium 500 MG",
+            "Cefuroxime 250 MG Oral Tablet",
+            "Acetaminophen 325 MG / oxyCODONE Hydrochloride 5 MG Oral Tablet",
+            "Naproxen sodium 220 MG Oral Tablet",
+            "Dextromethorphan Hydrobromide 1 MG/ML"
+        ],
+        "Race": "White"
+    },
+    "23": {
+        "Date": "20160418",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Northampton, MA",
+        "Medication": [
+            "Acetaminophen 160 MG",
+            "Amoxicillin 200 MG Oral Tablet",
+            "Acetaminophen 160 MG Oral Tablet"
+        ],
+        "Race": "White"
+    },
+    "24": {
+        "Date": "20141012",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Fitchburg, MA",
+        "Medication": [
+            "Penicillin V Potassium 500 MG",
+            "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet",
+            "Insulin Lispro 100 UNT/ML Injectable Solution [Humalog]",
+            "Naproxen sodium 220 MG Oral Tablet",
+            "Naproxen sodium 220 MG Oral Tablet"
+        ],
+        "Race": "White"
+    },
+    "25": {
+        "Date": "20161122",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Nantucket, MA",
+        "Medication": [
+            "Acetaminophen 160 MG"
+        ],
+        "Race": "White"
+    },
+    "26": {
+        "Date": "20140117",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Holbrook, MA",
+        "Medication": [
+            "Penicillin V Potassium 250 MG",
+            "Naproxen sodium 220 MG [Aleve]"
+        ],
+        "Race": "White"
+    },
+    "27": {
+        "Date": "19910207",
+        "Dead": true,
+        "Disease": "Natural death with unknown cause",
+        "DiseaseList": [
+            "Natural death with unknown cause"
+        ],
+        "Location": "Fitchburg, MA",
+        "Medication": [
+            "Penicillin V Potassium 500 MG",
+            "Nitroglycerin 0.4 MG/ACTUAT [Nitrolingual]",
+            "Hydrocortisone 10 MG/ML Topical Cream",
+            "Simvastatin 20 MG Oral Tablet",
+            "Amlodipine 5 MG Oral Tablet",
+            "Clopidogrel 75 MG Oral Tablet"
+        ],
+        "Race": "White"
+    },
+    "28": {
+        "Date": "20160613",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Peabody, MA",
+        "Medication": [
+            "Penicillin V Potassium 250 MG",
+            "Penicillin V Potassium 500 MG",
+            "Acetaminophen 160 MG",
+            "Acetaminophen 325 MG Oral Tablet"
+        ],
+        "Race": "Black"
+    },
+    "3": {
+        "Date": "20170518",
+        "Dead": true,
+        "Disease": "Myocardial Infarction",
+        "DiseaseList": [
+            "Myocardial Infarction"
+        ],
+        "Location": "Charlemont, MA",
+        "Medication": [
+            "Penicillin V Potassium 250 MG",
+            "Clopidogrel 75 MG Oral Tablet",
+            "Simvastatin 20 MG Oral Tablet",
+            "Amlodipine 5 MG Oral Tablet",
+            "Nitroglycerin 0.4 MG/ACTUAT [Nitrolingual]",
+            "Nitroglycerin 0.4 MG/ACTUAT [Nitrolingual]",
+            "Atorvastatin 80 MG Oral Tablet",
+            "Captopril 25 MG Oral Tablet",
+            "Clopidogrel 75 MG Oral Tablet"
+        ],
+        "Race": "White"
+    },
+    "4": {
+        "Date": "20070925",
+        "Dead": true,
+        "Disease": "Pulmonary emphysema (disorder)",
+        "DiseaseList": [
+            "Pulmonary emphysema (disorder)"
+        ],
+        "Location": "Clinton, MA",
+        "Medication": [
+            "Penicillin V Potassium 250 MG",
+            "Hydrocortisone 10 MG/ML Topical Cream",
+            "Nitroglycerin 0.4 MG/ACTUAT [Nitrolingual]",
+            "Simvastatin 20 MG Oral Tablet",
+            "Amlodipine 5 MG Oral Tablet",
+            "Clopidogrel 75 MG Oral Tablet",
+            "Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT [Advair]"
+        ],
+        "Race": "White"
+    },
+    "5": {
+        "Date": "19851122",
+        "Dead": true,
+        "Disease": "Stroke",
+        "DiseaseList": [
+            "Stroke"
+        ],
+        "Location": "Cambridge, MA",
+        "Medication": [],
+        "Race": "White"
+    },
+    "6": {
+        "Date": "20160811",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Boston, MA",
+        "Medication": [
+            "Penicillin V Potassium 250 MG",
+            "Yaz 28 Day Pack",
+            "Yaz 28 Day Pack",
+            "1 ML Depo-Provera 150 MG/ML Injection",
+            "Yaz 28 Day Pack",
+            "Camila 28 Day Pack",
+            " Amoxicillin 250 MG / Clavulanate 125 MG [Augmentin]",
+            "Natazia 28 Day Pack"
+        ],
+        "Race": "White"
+    },
+    "7": {
+        "Date": "20120811",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Boston, MA",
+        "Medication": [
+            " Amoxicillin 250 MG / Clavulanate 125 MG [Augmentin]",
+            " Amoxicillin 250 MG / Clavulanate 125 MG [Augmentin]",
+            "Acetaminophen 160 MG"
+        ],
+        "Race": "White"
+    },
+    "8": {
+        "Date": "19820220",
+        "Dead": true,
+        "Disease": "Natural death with unknown cause",
+        "DiseaseList": [
+            "Natural death with unknown cause"
+        ],
+        "Location": "Taunton, MA",
+        "Medication": [
+            "Penicillin V Potassium 250 MG",
+            "Penicillin V Potassium 500 MG",
+            "Naproxen sodium 220 MG [Aleve]",
+            "Penicillin V Potassium 500 MG"
+        ],
+        "Race": "White"
+    },
+    "9": {
+        "Date": "20090722",
+        "Dead": true,
+        "DiseaseList": [],
+        "Location": "Winchendon, MA",
+        "Medication": [
+            "Loratadine 5 MG Chewable Tablet",
+            "0.3 ML EPINEPHrine 0.5 MG/ML Auto-Injector"
+        ],
+        "Race": "White"
+    }
+}
