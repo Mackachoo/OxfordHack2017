@@ -85,6 +85,7 @@ json assignment(std::string file) {
     json result;
     std::vector<string> medicines;
     std::vector<string> diseases;
+    std::vector<string> datelist;
 
     if (type == "collection")
     {
@@ -164,9 +165,21 @@ json assignment(std::string file) {
 
             }
             else if (restype == "Condition") {
-                    a = entries[n]["resource"]["assertedDate"];
-                    a.erase(std::remove(a.begin(), a.end(), '-'), a.end());
+                    if (nullptr != entries[n]["resource"]["assertedDate"]) {
+                        a = entries[n]["resource"]["assertedDate"];
+                        a.erase(std::remove(a.begin(), a.end(), '-'), a.end());
+                        datelist.push_back(a);
+
+                    }
+
                     result["Date"] = a;
+                    if (nullptr != entries[n]["resource"]["code"]["text"]) {
+                        b = entries[n]["resource"]["code"]["text"];
+                        diseases.push_back(b);
+                    } //also disease
+
+
+
             }
             n++;
             //std::cout << entry << "\n\n";
@@ -174,6 +187,13 @@ json assignment(std::string file) {
 
 
         }
+        sort( datelist.begin(), datelist.end() );
+        datelist.erase( unique( datelist.begin(), datelist.end() ), datelist.end() );
+        sort( diseases.begin(), diseases.end() );
+        diseases.erase( unique( diseases.begin(), diseases.end() ), diseases.end() );
+
+
+        result["DateList"] = datelist;
         result["DiseaseList"] = diseases;
         result["Medication"] = medicines;
         std::cout << "med2 ok\n";
