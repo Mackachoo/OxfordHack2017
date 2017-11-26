@@ -1,6 +1,6 @@
 
 def MapPlot(code, filters):
-    import csv, sys, os
+    import csv, sys, os, subprocess
     from BeautifulSoup import BeautifulSoup
     from random import randint
     from reportlab.graphics import renderPM
@@ -53,7 +53,7 @@ def MapPlot(code, filters):
     tempfile.close()
     drawing = svg2rlg((static + tempcode + '.svg'))
     renderPM.drawToFile(drawing, static + '/' + str(code) + '.png')
-    #os.remove((static + tempcode + '.svg'))
+    os.remove((static + tempcode + '.svg'))
 
 if __name__ == "__main__":
     import sys

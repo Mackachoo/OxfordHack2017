@@ -67,10 +67,10 @@
           </div>
         </div>      
       </form>
-      {% if randcode %}
-        <img class="eight columns offset-by-two" src= "../static/{{randcode}}.png" style = "margin-bottom:50px;">
+      {% if not randcode %}
+      <img class="eight columns offset-by-two" src= "../static/USmap.svg " style = "margin-bottom:50px;">
       {% else %}
-        <img class="eight columns offset-by-two" src= "../static/USmap.svg " style = "margin-bottom:50px;">
+        <img class="eight columns offset-by-two" src= "../static/{{randcode}}.png" alt = "../static/alternate.png" style = "margin-bottom:50px;">
       {% endif %}
       </div>
 </body>

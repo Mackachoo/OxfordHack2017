@@ -3,11 +3,6 @@ from json import load
 from random import randint
 import os, sys, subprocess
 
-randcode = randint(0,20)
-static = os.path.abspath('./' + 'static' )
-randcodestat = static + '/' + str(randcode) + '.svg'
-sys.path.append(randcodestat)
-print (randcode)
 jsonlist = load(open("output.json", "r"))
 app = Flask(__name__)
 elements = []
@@ -34,6 +29,14 @@ raceList = list(set(raceList))
 def print_form():
     if request.method == 'POST':
         
+        randcode = randint(0,20)
+        static = os.path.abspath('./' + 'static' )
+        randcodesvg = static + '/' + str(randcode) + '.svg'
+        randcodepng = static + '/' + str(randcode) + '.png'
+        sys.path.append(randcodesvg)
+        sys.path.append(randcodepng)
+        print (randcode)
+
         result = dict(request.form)
         results = []
         for key in result:
@@ -49,7 +52,7 @@ def print_form():
         print(result)
         bashCommand = str("python2 mapPlot.py " + str(randcode) + " " + str(result))
         ps = subprocess.call(bashCommand.split())
-        return render_template('index.html', elements = {'0':elements}, randcode = randcode, randcodestat = randcodestat, diseases = diseaseList, races = raceList)
+        return render_template('index.html', elements = {'0':elements}, randcode = randcode, randcodesvg = randcodesvg, diseases = diseaseList, races = raceList, randcodepng = randcodepng)
     if request.method == 'GET':
         return render_template('index.html', elements = {'0':elements}, diseases = diseaseList, races = raceList)
 
