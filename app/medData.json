@@ -1,0 +1,101 @@
+{ 
+	"Diseases" : [
+	
+	{
+	"Disease"	: "Cystic Fibrosis",
+	"Location"	: "Santa Clara County, CA",
+	"Race"		: "White",
+	"Date"		: "20150321",
+	"Medication": [ "Zeus", "Findlay", "Penicilin" ]
+	},
+	
+	{
+	"Disease"	: "Gary Syndrome",
+	"Location"	: "Dover, MA",
+	"Race"		: "Blue",
+	"Date"		: "20250411",
+	"Medication": [ "Antimatter", "StillFindlay", "-1/12" ]	
+	},
+	
+	{
+		"Disease"	: "Glasses",
+		"Location"	: "Santa Clara County, CA",
+		"Race"		: "White",
+		"Date"		: "20150321",
+		"Medication": [ "Hair", "Findlay", "Speeeed" ]
+		},
+		
+		{
+		"Disease"	: "Cigarettes",
+		"Location"	: "Harris County, TX",
+		"Race"		: "White",
+		"Date"		: "20150321",
+		"Medication": [ "Lung Cancer" ]
+		},
+		
+		{
+		"Disease"	: "Kevin Spacey",
+		"Location"	: "Dover, MA",
+		"Race"		: "Cigarettes",
+		"Date"		: "20150321",
+		"Medication": [ "" ]
+		},
+	
+	{
+	"Disease"	: "Glasses",
+	"Location"	: "Santa Clara County, CA",
+	"Race"		: "White",
+	"Date"		: "20150321",
+	"Medication": [ "Hair", "Findlay", "Speeeed" ]
+	},
+	
+	{
+	"Disease"	: "Cigarettes",
+	"Location"	: "Harris County, TX",
+	"Race"		: "White",
+	"Date"		: "20150321",
+	"Medication": [ "Lung Cancer" ]
+	},
+	
+	{
+	"Disease"	: "Kevin Spacey",
+	"Location"	: "Dover, MA",
+	"Race"		: "Cigarettes",
+	"Date"		: "20150321",
+	"Medication": [ "" ]
+	},
+	
+	{
+	"Disease"	: "Kevin Spacey",
+	"Location"	: "Santa Clara County, CA",
+	"Race"		: "White",
+	"Date"		: "20150321",
+	"Medication": [ "Kevin Spacey" ]
+	},
+	
+	{
+	"Disease"	: "Kek",
+	"Location"	: "Dover, MA",
+	"Race"		: "White",
+	"Date"		: "20150321",
+	"Medication": [ "Zeus", "Findlay", "Penicilin" ]
+	},
+	
+	{
+	"Disease"	: "Whooping Cough",
+	"Location"	: "Dover, MA",
+	"Race"		: "White",
+	"Date"		: "20150321",
+	"Medication": [ "Honey", "Spice", "All things nice" ]
+	},
+	
+	{
+	"Disease"	: "A",
+	"Location"	: "Santa Clara County, CA",
+	"Race"		: "White",
+	"Date"		: "20150321",
+	"Medication": [ "F", "D", "C" ]
+	}
+	
+	]
+}
