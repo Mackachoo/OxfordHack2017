@@ -19,6 +19,7 @@ def MapPlot(code):
     paths = soup.findAll('path')
     pathStyle = "font-size:12px;fill-rule:nonzero;stroke:#050505;stroke-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:none;marker-start:none;stroke-linejoin:bevel;fill:"
     count = 0
+    totalnum = 0
     num = 0
 
     for entry in queryResponse:
