@@ -34,8 +34,8 @@ def MapPlot(code):
                     if p['inkscape:label'].decode("utf-8") == entry[0]:
                         print ("success")
                         num = entry[1]
-                        x =  (hex(int(round((255*num/totalnum))))[2:])
-                        p['style'] = pathStyle + ('#' + x + x + x + ';')
+                        x =  (hex(int(round((250*num/totalnum) + 5)))[2:])
+                        p['style'] = pathStyle + ('#' + x + '0505;')
                         break
             except:
                 continue
