@@ -1,10 +1,35 @@
 import json
 
-
 def getJson(file):
     data = json.load(open(file,"r"))
-    return data['Diseases']
+    return data
 
+def whoahWhatIsThis(js):
+    pureList = []
+    for i in js:
+        subList = js[str(i)]
+
+        try:
+            DateList = [(subList["Date"])] + subList["DateList"]
+        except:
+            DateList = subList["DateList"]
+
+        try:
+            DisList = [(subList["Disease"])] + subList["DiseaseList"]
+        except:
+            DisList = subList["DiseaseList"]
+
+        if len(DateList) != 0 and len(DisList) != 0:
+            currLoc = subList["Location"]
+            currRace = subList["Race"]
+            currMed = subList["Medication"]
+
+            Count = 0
+            while Count < len(DateList) and Count < len(DisList):
+                cleanList = [DisList[Count]] + [currLoc] + [currRace] + [DateList[Count]] + [currMed]
+                pureList.append(cleanList)
+                Count += 1
+    return pureList
 
 def convertJsToPy(js):
     pureList = []
@@ -13,17 +38,14 @@ def convertJsToPy(js):
         pureList.append(tempList)
     return pureList
 
-def cleaner(Value,Data,point):
-    if Data == None:
-        return []
-    elif point == len(Data):
-        return Data
-    elif not (Value in Data[point] or Value in Data[point][4]) or (type(Value) != str and ((Value[0] == "T" and Value[1] <= Data[point][3]) or (Value[0] == "F" and Value[1] >= Data[point][3]))):
-        del Data[point]
-        return cleaner(Value,Data,0)
-    else:
-        return cleaner(Value,Data,point+1)
-        print()
+def cleaner(Value,Data):
+    point = 0
+    while point < len(Data):
+        if not (Value in Data[point] or Value in Data[point][4]) or (type(Value) != str and ((Value[0] == "T" and Value[1] >= Data[point][3]) or (Value[0] == "F" and Value[1] <= Data[point][3]))):
+            del Data[point]
+        else:
+            point += 1
+    return Data
 
 def loader(Data):
     locs = []
@@ -47,15 +69,14 @@ def CycleSort(List):
 
 
 def RoadRunner(filters):
-    medSet = convertJsToPy(getJson("medData.json"))
+    medSet = whoahWhatIsThis(getJson("output.json"))
     for i in range(len(filters)):
-        medSet = cleaner(filters[i],medSet,0)
+        medSet = cleaner(filters[i],medSet)
     count = 1
     cleanList = []
     for cl in range(len(medSet)):
         cleanList.append(medSet[cl][1])
     medSet = CycleSort(cleanList)
-    #print(medSet)
     dim2Set = []
     for ind in range(len(medSet)):
         if ind + 1 == len(medSet):
@@ -66,6 +87,3 @@ def RoadRunner(filters):
             dim2Set.append([medSet[ind],count])
             count = 1
     return dim2Set
-
-if __name__ == "__main__":
-    print (RoadRunner(["White"]))

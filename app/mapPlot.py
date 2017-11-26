@@ -7,7 +7,7 @@ def MapPlot(code):
     from svglib.svglib import svg2rlg
     from garbledook import RoadRunner
 
-    filters = [['F', 20150000]]
+    filters = ["White"]
     queryResponse = RoadRunner(filters)
     print (queryResponse)
     static = os.path.abspath('./' + 'static' )
