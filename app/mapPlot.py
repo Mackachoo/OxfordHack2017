@@ -1,5 +1,5 @@
 
-def MapPlot(code):
+def MapPlot(code, filters):
     import csv, sys, os
     from BeautifulSoup import BeautifulSoup
     from random import randint
@@ -7,9 +7,7 @@ def MapPlot(code):
     from svglib.svglib import svg2rlg
     from garbledook import RoadRunner
 
-    filters = ["White"]
     queryResponse = RoadRunner(filters)
-    print (queryResponse)
     static = os.path.abspath('./' + 'static' )
     randcodestat = static + '/' + str(code)
     totalnum = 0
@@ -26,6 +24,7 @@ def MapPlot(code):
         totalnum = totalnum + entry[1]
 
 
+
     for p in paths:
         num = 0
         if p['id'] not in ['State_Lines', 'separator']:
@@ -34,8 +33,8 @@ def MapPlot(code):
                     if p['inkscape:label'].decode("utf-8") == entry[0]:
                         print ("success")
                         num = entry[1]
-                        x =  (hex(int(255 - round((255*num/totalnum))))[2:])
-                        y =  (hex(int(200 - round((200*num/(totalnum)))))[2:])
+                        x =  (hex(int(round(255-(200*num/totalnum))))[2:])
+                        y =  (hex(int(round(255-(255*num/(totalnum)))))[2:])
                         p['style'] = pathStyle + ('#' + x + y + y + ';')
                         break
             except:
@@ -54,5 +53,5 @@ def MapPlot(code):
 if __name__ == "__main__":
     import sys
     args = sys.argv[1:]
-    MapPlot(args[0])
+    MapPlot(args[0], args[1])
 

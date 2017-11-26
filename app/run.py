@@ -8,25 +8,49 @@ static = os.path.abspath('./' + 'static' )
 randcodestat = static + '/' + str(randcode) + '.svg'
 sys.path.append(randcodestat)
 print (randcode)
-jsonlist = load(open("template.json", "r"))
+jsonlist = load(open("output.json", "r"))
 app = Flask(__name__)
 elements = []
-for elem in jsonlist['Diseases']:
+for key in jsonlist:
     try:
-        elements = elements + [elem]
+        elements = elements + [jsonlist[key]]
     except:
         raise
         continue
+diseaseList = []
+for i in range(len(elements)):
+    diseaseList = diseaseList + elements[i]["DiseaseList"]
+diseaseList = list(set(diseaseList))
+print(diseaseList)
+raceList = []
+for i in range(len(elements)):
+    try:
+        raceList = raceList + [elements[i]["Race"]]
+    except:
+        continue
+raceList = list(set(raceList))
 
 @app.route('/',methods=['GET', 'POST'])
 def print_form():
     if request.method == 'POST':
-        result = request.form
-        bashCommand = str("python2 mapPlot.py " + str(randcode))
+        result = dict(request.form)
+        results = []
+        for key in result:
+            if result[key] == '':
+                continue
+            else:
+                results = results + result[key]
+        result = []
+        for i in range(0, len(results)):
+            
+            if results[i] != '':
+                result = result+[results[i]]
+        print(result)
+        bashCommand = str("python2 mapPlot.py " + str(randcode) + " " + str(result))
         ps = subprocess.call(bashCommand.split())
-        return render_template('index.html', elements = {'0':elements}, randcode = randcode, randcodestat = randcodestat)
+        return render_template('index.html', elements = {'0':elements}, randcode = randcode, randcodestat = randcodestat, diseases = diseaseList, races = raceList)
     if request.method == 'GET':
-        return render_template('index.html', elements = {'0':elements})
+        return render_template('index.html', elements = {'0':elements}, diseases = diseaseList, races = raceList)
 
 if __name__ == "__main__":
     #for i in jsonlist['Diseases']:

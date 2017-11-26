@@ -24,8 +24,8 @@
               <label for="alivestatus">Alive or dead?:</label>
               <select class="u-full-width" id="alivestatus" name = "alive">
                 <option value="">Select...</option>
-                <option value="True">Alive</option>
-                <option value="False">Dead</option>
+                <option value="Alive">Alive</option>
+                <option value="Dead">Dead</option>
               </select>
           </div>
 
@@ -33,8 +33,8 @@
             <label for="disease">Disease?:</label>
             <input class="u-full-width" type="search" placeholder="search..." list="dieseses" id="disease" name = "disease">
             <datalist id="dieseses" name = "disease">
-              {% for elem in elements.0 %}
-                <option value = "{{elem.Disease}}">
+              {% for elem in diseases%}
+                <option value = "{{elem}}">
               {% endfor %}
             </datalist>
                 
@@ -45,8 +45,8 @@
               <input class="u-full-width" type="search" placeholder="search..." list="race" id="racesearch" name = "race">
               
               <datalist id="race">
-                {% for elem in elements.0 %}
-                <option value="{{elem.Race}}">
+                {% for elem in races %}
+                <option value="{{elem}}">
                 {%endfor%}
               </datalist>
           </div>
