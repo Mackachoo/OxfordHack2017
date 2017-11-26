@@ -7,7 +7,7 @@ def MapPlot(code):
     from svglib.svglib import svg2rlg
     from garbledook import RoadRunner
 
-    filters = ["Kevin Spacey"]
+    filters = ["Cigarettes"]
     queryResponse = RoadRunner(filters)
     print (queryResponse)
     static = os.path.abspath('./' + 'static' )
@@ -34,8 +34,9 @@ def MapPlot(code):
                     if p['inkscape:label'].decode("utf-8") == entry[0]:
                         print ("success")
                         num = entry[1]
-                        x =  (hex(int(round((250*num/totalnum) + 5)))[2:])
-                        p['style'] = pathStyle + ('#' + x + '0505;')
+                        x =  (hex(int(round((207*num/totalnum) + 48)))[2:])
+                        y =     (hex(int(round((48*num/totalnum) + 30)))[2:])
+                        p['style'] = pathStyle + ('#' + x + y + y + ';')
                         break
             except:
                 continue

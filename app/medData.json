@@ -11,7 +11,7 @@
 	
 	{
 	"Disease"	: "Gary Syndrome",
-	"Location"	: "Dover, MA",
+	"Location"	: "Northwest Arctic, AK",
 	"Race"		: "Blue",
 	"Date"		: "20250411",
 	"Medication": [ "Antimatter", "StillFindlay", "-1/12" ]	
@@ -35,7 +35,7 @@
 		
 		{
 		"Disease"	: "Kevin Spacey",
-		"Location"	: "Dover, MA",
+		"Location"	: "Northwest Arctic, AK",
 		"Race"		: "Cigarettes",
 		"Date"		: "20150321",
 		"Medication": [ "" ]
@@ -51,7 +51,7 @@
 	
 	{
 	"Disease"	: "Cigarettes",
-	"Location"	: "Harris County, TX",
+	"Location"	: "Northwest Arctic, AK",
 	"Race"		: "White",
 	"Date"		: "20150321",
 	"Medication": [ "Lung Cancer" ]
@@ -59,11 +59,30 @@
 	
 	{
 	"Disease"	: "Kevin Spacey",
-	"Location"	: "Dover, MA",
+	"Location"	: "Northwest Arctic, AK",
 	"Race"		: "Cigarettes",
 	"Date"		: "20150321",
 	"Medication": [ "" ]
 	},
+	{
+		"Disease"	: "Kevin Spacey",
+		"Location"	: "Northwest Arctic, AK",
+		"Race"		: "Cigarettes",
+		"Date"		: "20150321",
+		"Medication": [ "" ]
+		},{
+			"Disease"	: "Kevin Spacey",
+			"Location"	: "North Slope, AK",
+			"Race"		: "Cigarettes",
+			"Date"		: "20150321",
+			"Medication": [ "" ]
+			},{
+				"Disease"	: "Kevin Spacey",
+				"Location"	: "Northwest Arctic, AK",
+				"Race"		: "Cigarettes",
+				"Date"		: "20150321",
+				"Medication": [ "" ]
+				},
 	
 	{
 	"Disease"	: "Kevin Spacey",
