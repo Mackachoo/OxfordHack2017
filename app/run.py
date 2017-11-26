@@ -33,6 +33,7 @@ raceList = list(set(raceList))
 @app.route('/',methods=['GET', 'POST'])
 def print_form():
     if request.method == 'POST':
+        
         result = dict(request.form)
         results = []
         for key in result:
