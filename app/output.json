@@ -1,5 +1,4 @@
 {
-    "Diseases":[
     "0": {
         "Date": "19980702",
         "DateList": [
@@ -36691,5 +36690,5 @@
             "200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler"
         ],
         "Race": "White"
-    }]
+    }
 }

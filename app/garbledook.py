@@ -18,7 +18,7 @@ def cleaner(Value,Data,point):
         return []
     elif point == len(Data):
         return Data
-    elif not (Value in Data[point] or Value in Data[point][4]) or (type(Value) != str and ((Value[0] == "T" and Value[1] >= Data[point][3]) or (Value[0] == "F" and Value[1] <= Data[point][3]))):
+    elif not (Value in Data[point] or Value in Data[point][4]) or (type(Value) != str and ((Value[0] == "T" and Value[1] <= Data[point][3]) or (Value[0] == "F" and Value[1] >= Data[point][3]))):
         del Data[point]
         return cleaner(Value,Data,0)
     else:
