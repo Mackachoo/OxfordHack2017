@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Memes</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="../static/normalize.css">
+  <link rel="stylesheet" href="../static/skeleton.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+      <div class="row">
+       <h1 style = "text-align:center;">What values do you want to filter the data with?</h1>
+      </div>  
+    <form method = 'post' action = '/'> 
+        <div class="row" >
+          <div class="four columns">
+              <label for="alivestatus">Alive or dead?:</label>
+              <select class="u-full-width" id="alivestatus" name = "alive">
+                <option value="">Select...</option>
+                <option value="Alive">Alive</option>
+                <option value="Dead">Dead</option>
+              </select>
+          </div>
+
+          <div class="four columns">
+            <label for="disease">Disease?:</label>
+            <input class="u-full-width" type="search" placeholder="search..." list="dieseses" id="disease" name = "disease">
+            <datalist id="dieseses" name = "disease">
+              {% for elem in diseases%}
+                <option value = "{{elem}}">
+              {% endfor %}
+            </datalist>
+                
+          </div>
+         
+          <div class="four columns">
+              <label for="racesearch">ethnicity?:</label>
+              <input class="u-full-width" type="search" placeholder="search..." list="race" id="racesearch" name = "race">
+              
+              <datalist id="race">
+                {% for elem in races %}
+                <option value="{{elem}}">
+                {%endfor%}
+              </datalist>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="four columns">
+              <label for="from">Date from:</label>
+              <input class="u-fill-width" type="date" id="from" style="width:100%" name = "from">
+          </div>
+
+          <div class="four columns">
+              <label for="to">Date to:</label>
+              <input class="u-fill-width" type="date" id="to" style="width:100%" name = "to">
+          </div>
+          <div class ="four columns">
+            <input class="button-primary" type="submit" value="Filter me some JSON" style="width:100%;margin-top:9.5%">
+          </div>
+        </div>      
+      </form>
+      {% if not randcode %}
+      <img class="eight columns offset-by-two" src= "../static/USmap.svg " style = "margin-bottom:50px;">
+      {% else %}
+        <img class="eight columns offset-by-two" src= "../static/{{randcode}}.png" alt = "../static/alternate.png" style = "margin-bottom:50px;">
+      {% endif %}
+      </div>
+</body>
+</html>

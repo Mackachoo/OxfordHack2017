@@ -1,0 +1,158 @@
+{ 
+	"Diseases" : [
+	
+	{
+	"Disease"	: "Cystic Fibrosis",
+	"Location"	: "Santa Clara County, CA",
+	"Race"		: "White",
+	"Date"		: "20160412",
+	"Medication": [ "Zeus", "Findlay", "Penicilin" ]
+	},
+	
+	{
+	"Disease"	: "Gary Syndrome",
+	"Location"	: "Northwest Arctic, AK",
+	"Race"		: "Blue",
+	"Date"		: "20250411",
+	"Medication": [ "Antimatter", "StillFindlay", "-1/12" ]	
+	},
+	
+	{
+		"Disease"	: "Glasses",
+		"Location"	: "Santa Clara County, CA",
+		"Race"		: "White",
+		"Date"		: "20171126",
+		"Medication": [ "Hair", "Findlay", "Speeeed" ]
+		},
+		
+		{
+		"Disease"	: "Cigarettes",
+		"Location"	: "Harris County, TX",
+		"Race"		: "White",
+		"Date"		: "20160412",
+		"Medication": [ "Lung Cancer" ]
+		},
+		
+		{
+		"Disease"	: "Kevin Spacey",
+		"Location"	: "Northwest Arctic, AK",
+		"Race"		: "Cigarettes",
+		"Date"		: "20150321",
+		"Medication": [ "" ]
+		},
+	
+	{
+	"Disease"	: "Glasses",
+	"Location"	: "Santa Clara County, CA",
+	"Race"		: "White",
+	"Date"		: "20160412",
+	"Medication": [ "Hair", "Findlay", "Speeeed" ]
+	},
+	
+	{
+	"Disease"	: "Cigarettes",
+	"Location"	: "Northwest Arctic, AK",
+	"Race"		: "White",
+	"Date"		: "20150321",
+	"Medication": [ "Lung Cancer" ]
+	},
+	
+	{
+	"Disease"	: "Kevin Spacey",
+	"Location"	: "Northwest Arctic, AK",
+	"Race"		: "Cigarettes",
+	"Date"		: "20171126",
+	"Medication": [ "" ]
+	},
+	{
+		"Disease"	: "Navajo, AZ",
+		"Location"	: "Northwest Arctic, AK",
+		"Race"		: "Cigarettes",
+		"Date"		: "20150321",
+		"Medication": [ "" ]
+		},
+		{
+			"Disease"	: "Navajo, AZ",
+			"Location"	: "Northwest Arctic, AK",
+			"Race"		: "Cigarettes",
+			"Date"		: "20171126",
+			"Medication": [ "" ]
+			},{
+				"Disease"	: "Navajo, AZ",
+				"Location"	: "Northwest Arctic, AK",
+				"Race"		: "Cigarettes",
+				"Date"		: "20160412",
+				"Medication": [ "" ]
+				},{
+					"Disease"	: "Navajo, AZ",
+					"Location"	: "Northwest Arctic, AK",
+					"Race"		: "Cigarettes",
+					"Date"		: "20150321",
+					"Medication": [ "" ]
+					},{
+						"Disease"	: "Navajo, AZ",
+						"Location"	: "Northwest Arctic, AK",
+						"Race"		: "Cigarettes",
+						"Date"		: "20150321",
+						"Medication": [ "" ]
+						},{
+							"Disease"	: "Navajo, AZ",
+							"Location"	: "Northwest Arctic, AK",
+							"Race"		: "Cigarettes",
+							"Date"		: "20171126",
+							"Medication": [ "" ]
+							},{
+								"Disease"	: "Navajo, AZ",
+								"Location"	: "Northwest Arctic, AK",
+								"Race"		: "Cigarettes",
+								"Date"		: "20171126",
+								"Medication": [ "" ]
+								},
+		{
+			"Disease"	: "Kevin Spacey",
+			"Location"	: "North Slope, AK",
+			"Race"		: "Cigarettes",
+			"Date"		: "20171126",
+			"Medication": [ "" ]
+			},{
+				"Disease"	: "Kevin Spacey",
+				"Location"	: "Northwest Arctic, AK",
+				"Race"		: "Cigarettes",
+				"Date"		: "20150321",
+				"Medication": [ "" ]
+				},
+	
+	{
+	"Disease"	: "Cigarettes",
+	"Location"	: "North Slope, AK",
+	"Race"		: "White",
+	"Date"		: "20150321",
+	"Medication": [ "Kevin Spacey" ]
+	},
+	
+	{
+	"Disease"	: "Kek",
+	"Location"	: "North Slope, AK",
+	"Race"		: "White",
+	"Date"		: "20150321",
+	"Medication": [ "Zeus", "Findlay", "Penicilin" ]
+	},
+	
+	{
+	"Disease"	: "Whooping Cough",
+	"Location"	: "Dover, MA",
+	"Race"		: "White",
+	"Date"		: "20150321",
+	"Medication": [ "Honey", "Spice", "All things nice" ]
+	},
+	
+	{
+	"Disease"	: "A",
+	"Location"	: "Santa Clara County, CA",
+	"Race"		: "White",
+	"Date"		: "20150321",
+	"Medication": [ "F", "D", "C" ]
+	}
+	
+	]
+}
